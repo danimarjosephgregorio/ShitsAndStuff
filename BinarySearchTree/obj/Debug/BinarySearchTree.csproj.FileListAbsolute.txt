@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\obj\Debug\BinarySearchTree.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+C:\Users\User\source\repos\ShitsAndStuff\BinarySearchTree\obj\Debug\BinarySearchTree.pdb
