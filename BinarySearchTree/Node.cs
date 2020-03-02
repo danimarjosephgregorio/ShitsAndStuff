@@ -11,15 +11,17 @@ namespace BinarySearchTree
         public Node RightNode;
         public Node LeftNode;
         public int Data;
+        public int Count;
 
         public Node(int data)
         {
             this.Data = data;
+            this.Count = 1;
         }
 
         public void Insert(int value)
         {
-            if(value <= Data)
+            if (value < Data)
             {
                 if(LeftNode != null)
                 {
@@ -30,7 +32,7 @@ namespace BinarySearchTree
                     LeftNode = new Node(value);
                 }
             }
-            else
+            else if(value > Data)
             {
                 if (RightNode != null)
                 {
@@ -40,6 +42,10 @@ namespace BinarySearchTree
                 {
                     RightNode = new Node(value);
                 }
+            }
+            else
+            {
+                Count++;
             }
         }
 

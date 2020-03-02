@@ -25,7 +25,8 @@ namespace BinarySearchTree
 
             Console.Write($"\n\nTree contains {18}: {tree.Contains(18)}");
 
-            Console.Write($"\n\nFind node recursively: {tree.FindRecursive(99).Data}");
+            var node = tree.FindRecursive(10);
+            Console.Write($"\n\nFind node recursively: {node.Data} || Count: {node.Count}");
 
             Console.Write($"\n\nFind node non-recursively: {tree.Find(66).Data}");
 
