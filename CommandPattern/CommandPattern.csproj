@@ -44,16 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APIs\Light.cs" />
+    <Compile Include="APIs\Television.cs" />
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\Lights\LightOffCommand.cs" />
     <Compile Include="Command\Lights\LightOnCommand.cs" />
     <Compile Include="Command\NoCommand.cs" />
+    <Compile Include="Command\TVs\TVOffCommand.cs" />
+    <Compile Include="Command\TVs\TVOnCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoteControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Command\MacroCommands\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
