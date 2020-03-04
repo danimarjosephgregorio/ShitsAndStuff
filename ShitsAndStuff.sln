@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm", "Sorting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{1E227470-3F68-4E87-9292-38078E1900C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICTPractice", "DICTPractice\DICTPractice.csproj", "{BDEA1F2D-DE36-4FE1-AFD4-C98A29E48AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1E227470-3F68-4E87-9292-38078E1900C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E227470-3F68-4E87-9292-38078E1900C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E227470-3F68-4E87-9292-38078E1900C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDEA1F2D-DE36-4FE1-AFD4-C98A29E48AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEA1F2D-DE36-4FE1-AFD4-C98A29E48AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEA1F2D-DE36-4FE1-AFD4-C98A29E48AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEA1F2D-DE36-4FE1-AFD4-C98A29E48AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
