@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICTPractice", "DICTPractic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundPattern", "CompoundPattern\CompoundPattern.csproj", "{1D924EFD-F0AF-4CC8-9210-954724D02D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD26885-59CB-40E3-8B08-0BE5C5DEF1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D924EFD-F0AF-4CC8-9210-954724D02D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D924EFD-F0AF-4CC8-9210-954724D02D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D924EFD-F0AF-4CC8-9210-954724D02D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D924EFD-F0AF-4CC8-9210-954724D02D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

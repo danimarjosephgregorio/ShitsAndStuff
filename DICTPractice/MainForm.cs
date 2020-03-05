@@ -22,5 +22,18 @@ namespace DICTPractice
         {
             SqlConnection cnn;
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtPaper.Clear();
+            txtPaper.Focus();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            var fileName = "text.txt";
+            folderBrowserDialog.ShowDialog();
+            var selectedFolder = folderBrowserDialog.SelectedPath;
+        }
     }
 }

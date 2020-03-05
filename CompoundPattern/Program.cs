@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CompoundPattern
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DuckSimulator simulator = new DuckSimulator();
+
+            //simulator.Simulate(new DuckFactory());
+
+            simulator.Simulate(new CountingDuckFactory());
+
+            Console.ReadLine();
+        }
+    }
+}
